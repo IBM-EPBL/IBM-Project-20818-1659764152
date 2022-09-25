@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>ChessBoard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- Code From www.NarendraDwivedi.Org -->
+    <script>
+        document.write("<table border='1' width='500' height='500' align='center' style='max-width:100%;max-height:100%;'>");
+        for (var i = 1; i <= 8; i++) {
+            document.write("<tr>");
+            for (var j = 1; j <= 8; j++) {
+                if ((i + j) % 2 != 0) {
+                    document.write("<td bgcolor='white'></td>");
+                }
+                else {
+                    document.write("<td bgcolor='black'></td>");
+                }
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+</html>
