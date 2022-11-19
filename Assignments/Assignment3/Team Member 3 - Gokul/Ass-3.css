@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(190, 229, 247);
+    text-align: center;
+    font-style: italic ;
+}
+.outercont
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+p {
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    font-style: normal;
+}
+h2 {
+    text-align: center;
+}
+.cont 
+{
+    width: 700px;
+}
+
+.leftcont
+{
+    font-size: 17px;
+}
+
+.rightcont
+{
+    font-size: 17px;
+}
+
+.othercont
+{
+    display: flex;
+}
